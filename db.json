@@ -1,0 +1,144 @@
+{
+  "tickets": [
+    {
+      "id": "1",
+      "title": "Fix the footer links please",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+      "priority": "low",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "2",
+      "title": "Add in a new stylesheet",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+      "priority": "medium",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "3",
+      "title": "Fix the footer links",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+      "priority": "high",
+      "user_email": "peach@netninja.dev"
+    },
+    {
+      "id": "4",
+      "title": "Update homepage hero section",
+      "body": "The hero image is not responsive on mobile devices. Hyrule Castle background appears pixelated. Need to optimize for faster loading times and ensure all call-to-action buttons are functioning properly.",
+      "priority": "medium",
+      "user_email": "luigi@netninja.dev"
+    },
+    {
+      "id": "5",
+      "title": "Database connection timeout",
+      "body": "Users are experiencing intermittent timeouts when querying the Triforce database. Issue occurs primarily during peak hours. Requires investigation into connection pooling and query optimization.",
+      "priority": "high",
+      "user_email": "toad@netninja.dev"
+    },
+    {
+      "id": "6",
+      "title": "Add dark mode toggle",
+      "body": "Users have requested a dark mode option for the application. Should include theme persistence and system preference detection. CSS variables need to be updated throughout.",
+      "priority": "medium",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "7",
+      "title": "Fix mobile navigation menu",
+      "body": "The hamburger menu does not open on iOS Safari version 15. Dropdown items are not accessible via screen readers. Requires ARIA attribute fixes and JavaScript adjustments.",
+      "priority": "high",
+      "user_email": "peach@netninja.dev"
+    },
+    {
+      "id": "8",
+      "title": "Update copyright year in footer",
+      "body": "The footer still shows 2023 copyright. Needs to be updated to 2024 dynamically or via configuration file.",
+      "priority": "low",
+      "user_email": "luigi@netninja.dev"
+    },
+    {
+      "id": "9",
+      "title": "Implement user profile upload",
+      "body": "Users need ability to upload profile pictures. Feature requires image validation, compression, and storage integration with Cloudinary or similar service.",
+      "priority": "medium",
+      "user_email": "toad@netninja.dev"
+    },
+    {
+      "id": "10",
+      "title": "Email notification system failing",
+      "body": "Password reset and ticket update emails are not being sent. SMTP configuration appears correct but no emails are logged in the outgoing queue.",
+      "priority": "critical",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "11",
+      "title": "Optimize image loading",
+      "body": "Large images on product pages are affecting Core Web Vitals. Need to implement lazy loading and convert images to WebP format for supported browsers.",
+      "priority": "medium",
+      "user_email": "peach@netninja.dev"
+    },
+    {
+      "id": "12",
+      "title": "Add pagination to user list",
+      "body": "Admin panel user list loads all records at once causing performance issues. Need server-side pagination with page size options (10, 25, 50, 100).",
+      "priority": "medium",
+      "user_email": "luigi@netninja.dev"
+    },
+    {
+      "id": "13",
+      "title": "Broken API endpoint /api/tickets",
+      "body": "GET request to /api/tickets returns 500 error when filtering by priority. Issue appears to be in the SQL query construction when priority parameter is null.",
+      "priority": "high",
+      "user_email": "toad@netninja.dev"
+    },
+    {
+      "id": "14",
+      "title": "Improve form validation messages",
+      "body": "Current validation errors are not user-friendly. Need clearer messages with field-specific instructions and proper color coding (red for errors, green for success).",
+      "priority": "low",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "15",
+      "title": "Update dependencies to latest versions",
+      "body": "Several packages have security vulnerabilities according to npm audit. React needs updating from v17 to v18, and Express from v4 to v5 with appropriate breaking change adjustments.",
+      "priority": "medium",
+      "user_email": "peach@netninja.dev"
+    },
+    {
+      "id": "16",
+      "title": "Implement two-factor authentication",
+      "body": "Add 2FA option for user accounts using TOTP (Time-based One-Time Password). Should include backup codes and recovery options for lost devices.",
+      "priority": "high",
+      "user_email": "luigi@netninja.dev"
+    },
+    {
+      "id": "17",
+      "title": "Fix console warnings",
+      "body": "Multiple React key warnings and deprecated API usage messages in console. Need to clean up before next production deployment.",
+      "priority": "low",
+      "user_email": "toad@netninja.dev"
+    },
+    {
+      "id": "18",
+      "title": "Add search functionality to docs",
+      "body": "Documentation pages need full-text search capability. Consider implementing Algolia or client-side search with lunr.js.",
+      "priority": "medium",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "19",
+      "title": "Browser compatibility issues",
+      "body": "CSS Grid layout breaks in Internet Explorer 11. Need fallback using flexbox or feature detection with @supports rule.",
+      "priority": "low",
+      "user_email": "peach@netninja.dev"
+    },
+    {
+      "id": "20",
+      "title": "Setup automated testing pipeline",
+      "body": "Implement CI/CD with GitHub Actions to run unit tests, integration tests, and end-to-end tests on every pull request to main branch.",
+      "priority": "medium",
+      "user_email": "luigi@netninja.dev"
+    }
+  ]
+}
